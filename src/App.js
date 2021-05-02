@@ -4,14 +4,13 @@ import FullName from "./Component/Profile/FullName";
 import Address from "./Component/Profile/Address";
 
 function App() {
-  return (
 
+  return (
     <div className="App">
       <ProfilePhoto />
       <FullName />
-      <Address />
+      <Address /> 
     </div>
-
   );
 }
 
